@@ -40,6 +40,20 @@ p {
   margin: 15px 0 20px 0;
 }
 
+button.normal{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px   30px;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+
+}
+
 .section-p1 {
   padding: 40px 80px;
 }
@@ -275,11 +289,40 @@ right: 10px;
   justify-content: space-around;
 }
 
+#services{
+  text-align: center;
+  margin: 50px 0px;
+  padding: 20px;
+  background-image: url(images/Services.jpg);
+  height: 43vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
 
+#services h4{
+  font-size: 16px;
+  color: #fff;
+}
+#services h1{
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+#services h1 span{
+  color: #ef3638;
+}
 
-
-
-
+#services button:hover{
+  background-color: #088178;
+  color: #fff;
+}
 
 
 
