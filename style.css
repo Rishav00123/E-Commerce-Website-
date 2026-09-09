@@ -514,6 +514,12 @@ footer a{
   color: #222;
   margin-bottom: 10px;
 }
+footer p{
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
 footer .follow{
   margin-top: 20px;
   
@@ -710,4 +716,22 @@ height: 40vh;
 }
 #page-header h2,p{
   color: #fff;
+}
+
+
+#pagination{
+  text-align: center;
+}
+#pagination a{
+  text-decoration: none;
+  background-color: #088178;
+  padding: 15px 20px;
+  color: white;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+#pagination a i{
+  font-size: 16px;
+  font-weight: 800;
 }
