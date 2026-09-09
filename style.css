@@ -692,3 +692,22 @@ height: 40vh;
 }
 
 
+
+/*  **************Shop************** */
+
+
+#page-header{
+  background-image: url(images/banner/b1.jpg);
+  height: 40vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+
+}
+#page-header h2,p{
+  color: #fff;
+}
